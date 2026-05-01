@@ -31,5 +31,30 @@ if (root->n == 2 * t - 1) {                  // root has 3 keys, it's full → t
     root = newRoot;                               // new root is now [20]
 }
 ```
+Part 10:
+Question 1:
+A 2-3-4 tree is simply a B-Tree with t=2. The name comes from the fact that nodes can have 2, 3, or 4 children.
+
+Question 2:
+With t=2, a node holds at most 2t-1 = 3 keys, which means at most 2t = 4 children.
+
+Question 3:
+When a node is full (has 3 keys), the middle key is promoted up to the parent and the node is split into two nodes, left gets the smaller key, right gets the larger key. If the root splits, a new root is created and the tree grows in height by 1.
+
+Question 4:
+O(log n) 
+
+Part 11:
+Question 1:
+Because the tree structure matters, not just the values. If saved only keys, we lose which keys belong to which node, which nodes are leaves, and the parent-child relationships. When rebuilding we wouldn't know how to rebuild the hierarchy there will just be a flat list of numbers with no way to reconstruct the correct tree shape.
+
+Question 2:
+serialize function writes the leaf flag alongside n for every node
+```cpp
+out << node->n << " " << node->leaf << " ";
+```
+
+
+
 
  
