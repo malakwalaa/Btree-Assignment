@@ -1,0 +1,96 @@
+Insert 10:
+Total splits so far: 0
+
+Insert 20:
+Total splits so far: 0
+
+Insert 5:
+Total splits so far: 0
+
+Delete 10:
+Total splits so far: 0
+
+Search 20:
+20 found.
+Total splits so far: 0
+
+Insert 6:
+Total splits so far: 0
+
+Insert 12:
+Total splits so far: 1
+
+Total splits performed: 1
+Original Tree:
+Height: 1
+Splits: 1
+Structure:
+Rebuilding in reverse order...
+Insert 12:
+Insert 6:
+Insert 5:
+Insert 20:
+Insert 10:
+Reversed Tree:
+Height: 1
+Splits: 1
+Structure:
+Level 0: [ 6]
+Level 1: [ 5] [ 10 12 20]
+
+Total splits = 2
+Comparison:
+Height - Original: 1 | Reversed: 1 : Same
+Splits - Original: 1 | Reversed: 1 : Same
+Extra Challenge Question
+Insert 100:
+Level 0: [ 100]
+Height: 0 | Splits so far: 0
+
+Insert 90:
+Level 0: [ 90 100]
+Height: 0 | Splits so far: 0
+
+Insert 80:
+Level 0: [ 80 90 100]
+Height: 0 | Splits so far: 0
+
+Insert 70:
+Level 0: [ 90]
+Level 1: [ 70 80] [ 100]
+Height: 1 (grew!) | Splits so far: 1
+
+Insert 60:
+Level 0: [ 90]
+Level 1: [ 60 70 80] [ 100]
+Height: 1 | Splits so far: 1
+
+Insert 50:
+Level 0: [ 70 90]
+Level 1: [ 50 60] [ 80] [ 100]
+Height: 1 | Splits so far: 2
+
+Insert 40:
+Level 0: [ 70 90]
+Level 1: [ 40 50 60] [ 80] [ 100]
+Height: 1 | Splits so far: 2
+
+Insert 30:
+Level 0: [ 50 70 90]
+Level 1: [ 30 40] [ 60] [ 80] [ 100]
+Height: 1 | Splits so far: 3
+
+Insert 20:
+Level 0: [ 70]
+Level 1: [ 50] [ 90]
+Level 2: [ 20 30 40] [ 60] [ 80] [ 100]
+Height: 2 (grew!) | Splits so far: 4
+
+Insert 10:
+Level 0: [ 70]
+Level 1: [ 30 50] [ 90]
+Level 2: [ 10 20] [ 40] [ 60] [ 80] [ 100]
+Height: 2 | Splits so far: 5
+
+Final Height : 2
+Total Splits : 5

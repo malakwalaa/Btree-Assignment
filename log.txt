@@ -1,0 +1,17 @@
+Total splits so far: 0
+Total splits so far: 0
+Total splits so far: 0
+Total splits so far: 0
+Total splits so far: 0
+Total splits so far: 0
+Total splits so far: 1
+Total splits performed: 1
+Level 0: [ 6]
+Level 1: [ 5] [ 12 20]
+Level 0: [ 12]
+Level 0: [ 6 12]
+Level 0: [ 5 6 12]
+Level 0: [ 6]
+Level 1: [ 5] [ 12 20]
+Level 0: [ 6]
+Level 1: [ 5] [ 10 12 20]
